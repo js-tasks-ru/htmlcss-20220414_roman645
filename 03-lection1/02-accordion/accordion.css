@@ -1,22 +1,28 @@
-.accordion{
-background: #FFFFFF;
-border: 1px solid #ACB5BD;
+.accordion__item {
+background: var(--white);
+border: 1px solid var(--grey-3);
 border-radius: 8px;
 box-sizing: border-box;
-padding-left: 32px;
-width: 730px;
+padding: 24px;
 height: auto;
 margin-bottom: 8px;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 
-.accordion__text {
-color: #495057;
-padding-right: 49px;;
+.accordion__title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: var(--black-2);
+list-style: none;
 }
 
-.accordion__item::-webkit-details-marker {  
-    display: none;
+.accordion__content {
+color: var(--grey-4);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
-
