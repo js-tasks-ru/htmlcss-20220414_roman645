@@ -1,7 +1,9 @@
 .button {
     border-radius: 8px;
-    width: 189px;
-    height: 48px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 65px;
+    padding-right: 65px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
