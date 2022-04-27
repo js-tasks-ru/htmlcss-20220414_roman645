@@ -8,10 +8,9 @@ padding: 24px 26px;
 .histogram__header {
 display: flex;
 justify-content: space-between;
-margin-bottom: -30px;
 }
 
-.histogram__header_text1 {
+.histogram__title {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -21,7 +20,7 @@ color: var(--black);
 opacity: 0.8;
 }
 
-.histogram__header_text2 {
+.histogram__link {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -43,15 +42,14 @@ padding-bottom: 39px;
 .histogram__bars {
 height: 50px;
 display: flex;
-align-items: flex-end; 
-justify-content: space-between;
+align-items: flex-end;
 }
 
 .histogram__bar {
 width: 100%;
-height: 50%;
-left: 563px;
-top: 640px;
 background: var(--blue);
-margin: 1px;
+margin-right: 1px;
+display: flex;
+flex-basis: 9px; 
+flex-grow: 1
 }
