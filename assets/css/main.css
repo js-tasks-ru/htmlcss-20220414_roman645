@@ -3,6 +3,7 @@
 :root {
     --white: #ffffff;
     --black: #212429;
+    --black-2: #000000;
     --pink: #F784AD;
     --purple: #7048E8;
     --blue: #374FC7;
@@ -20,5 +21,5 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
