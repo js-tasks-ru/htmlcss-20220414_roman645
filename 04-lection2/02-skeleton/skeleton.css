@@ -1,0 +1,33 @@
+.skeleton {
+width: 579px;
+height: 192px;
+background: #FFFFFF;
+border: 1px solid #ACB5BD;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+.skeleton__avatar {
+margin: 24px;
+}
+
+.skeleton__text1, .skeleton__text2, .skeleton__text3, .skeleton__text4 {
+width: 515px;
+height: 20px;
+background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+margin: 8px;
+display:inline-block;
+}
+
+.skeleton__text1 {
+width: 172px;
+height: 20px;
+}
+
+.skeleton__text2 {
+width: 257px;
+height: 20px;
+}
+
+
+
