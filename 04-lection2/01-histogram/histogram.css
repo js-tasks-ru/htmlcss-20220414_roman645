@@ -37,6 +37,7 @@ font-size: 22px;
 line-height: 26px;
 color: var(--black); 
 padding-bottom: 39px;
+padding-top: 6px;
 }
 
 .histogram__bars {
