@@ -19,3 +19,7 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
+
+* {
+    font-family: 'Inter', sans-serif;
+}

@@ -29,15 +29,15 @@ line-height: 24px;
 color: var(--blue);
 }
 
-.histogram__h4 {
+.histogram__amount {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 26px;
 color: var(--black); 
-padding-bottom: 39px;
-padding-top: 6px;
+margin-bottom: 39px;
+margin-top: 6px;
 }
 
 .histogram__bars {
