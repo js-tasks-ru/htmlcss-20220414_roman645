@@ -47,7 +47,6 @@ align-items: flex-end;
 }
 
 .histogram__bar {
-width: 100%;
 background: var(--blue);
 margin-right: 1px;
 display: flex;
