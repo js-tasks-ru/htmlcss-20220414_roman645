@@ -1,10 +1,8 @@
 .skeleton {
 width: 579px;
 height: 192px;
-left: 537px;
-top: 819px;
-background: #FFFFFF;
-border: 1px solid #ACB5BD;
+background: var(--white);
+border: 1px solid var(--grey-3);
 box-sizing: border-box;
 border-radius: 8px;
 }
@@ -16,27 +14,26 @@ border-radius: 8px;
 .skeleton__avatar{
 width: 64px;
 height: 64px;
-left: 561px;
-top: 843px;
-background: #DDE2E5;
+background: var(--grey-2);
 border-radius: 64px;
 }
 
-.skeleton__bottom{
+.skeleton__bottom {
 
 }
 
 .skeleton__line, .skeleton__line_short, .skeleton__line_middle{
 height: 20px;
+width: 100%;
 background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
 .skeleton__line_short{
-
+width: 25%;
 }
 
 
 .skeleton__line_middle{
-    
+width: 50%;
 }
 
