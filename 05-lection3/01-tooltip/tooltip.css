@@ -1,7 +1,7 @@
 .tooltip {
-position: relative;
-bottom: -50px;
-right: -50px;
+position: absolute;
+top: 50px;
+left: 100px;
 display: inline-block;
 }
 
