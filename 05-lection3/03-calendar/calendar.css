@@ -1,0 +1,28 @@
+.calendar {
+box-sizing: border-box;
+width: 300px;
+background: #FFFFFF;
+border: 1px solid #ACB5BD;
+border-radius: 8px;
+padding: 28px 36px;
+}
+
+.calendar__wrapper {
+padding-bottom: 100%;
+position: relative;
+}
+
+.calendar__inner {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: repeat(7, 1fr);
+}
+
+.calendar__item {
+
+}
