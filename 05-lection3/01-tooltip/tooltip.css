@@ -1,18 +1,17 @@
 .tooltip {
-position: absolute;
-top: 50px;
-left: 100px;
 display: inline-block;
 }
 
 .tooltip__trigger {
 cursor: pointer; 
+position: absolute;
+left: 50%;
 }
 
 .tooltip__bubble {
 position: absolute;
-top: calc( 100% + 15px);
-left: 50%;
+left: calc(50% + 12px);
+top: 7%;
 transform: translateX(-50%);
 display: none;
 padding-left: 21px;
