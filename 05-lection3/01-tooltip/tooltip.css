@@ -4,20 +4,14 @@ display: inline-block;
 
 .tooltip__trigger {
 cursor: pointer; 
-position: absolute;
-left: 50%;
 }
 
 .tooltip__bubble {
-position: absolute;
-left: calc(50% + 12px);
-top: 7%;
-transform: translateX(-50%);
+position: absolute;   
 display: none;
-padding-left: 21px;
-padding-right: 21px;
-padding-bottom: 10px;
-padding-top: 11px;
+padding: 11px 21px 10px 21px;
+bottom: calc(100% - 100px);
+transform: translateX(-40%);
 background: var(--blue-3);
 box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 border-radius: 10px;
