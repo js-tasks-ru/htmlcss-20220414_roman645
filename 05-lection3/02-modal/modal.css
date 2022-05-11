@@ -1,7 +1,8 @@
-.modal__button_open {
+.button_open {
 position: absolute;
-top: 230px;
-left: 100px; 
+top: 50%;
+left: 25%;
+transform: translate(-50%, -50%);
 }
 
 .modal__button_close {
@@ -11,19 +12,19 @@ top: 15px;
 }
 
 .modal__cover {
-position: absolute;
+position: fixed;
 width: 100%;
 height: 100%;
 background: var(--grey-c4);
-opacity: 0.5;
 }
 
 .modal__card {
 position: absolute;
 width: 25%;
 height: 35%;
-left: 25%;
-top: 10%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 background: var(--white);
 border-radius: 8px;
 padding: 30px 40px 33px 40px;
