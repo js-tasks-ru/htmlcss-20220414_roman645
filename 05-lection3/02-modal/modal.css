@@ -11,13 +11,6 @@ right: 15px;
 top: 15px;
 }
 
-.modal__cover {
-position: fixed;
-width: 100%;
-height: 100%;
-background: var(--grey-c4);
-}
-
 .modal__card {
 position: absolute;
 width: 25%;
@@ -41,4 +34,8 @@ color: var(--grey-4);
 
 .modal {
 display: none;
+position: fixed;
+width: 100%;
+height: 100%;
+background: var(--grey-c4);
 }
