@@ -1,8 +1,5 @@
 .tooltip {
 display: inline-block;
-position: absolute;
-left: 50%;
-top: 50%;
 }
 
 .tooltip__trigger {
