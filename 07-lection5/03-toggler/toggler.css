@@ -18,16 +18,10 @@ cursor: pointer;
 .toggler__control{
 box-sizing: border-box;
 position: relative;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 width: 52px;
 height: 28px;
-left: 0px;
 border: 1px solid var(--grey-2);
 border-radius: 16px;
-
 }
 
 .toggler__slider{
@@ -36,10 +30,9 @@ background-color: var(--grey-2);
 width: 24px;
 height: 24px;
 border-radius: 100%;
-margin: 1px;
 position: absolute;
-left: 0%;
-top: 0%;
+left: 1px;
+top: 1px;
 }
 
 .toggler__title{
@@ -58,7 +51,7 @@ background-color: var(--blue-1);
 .toggler__input:checked ~ .toggler__state  .toggler__slider {
 background-color: var(--white);
 position: absolute;
-left: 48%;
+left: 25px;
 }
 
 .toggler__input:focus ~ .toggler__state  .toggler__title {
@@ -71,8 +64,6 @@ pointer-events: none;
 }
 
 .toggler__input:disabled ~ .toggler__state  .toggler__slider {
-background-color: var(--grey-3);
-position: absolute;
-left: 0%;
+display: none;
 }
     
