@@ -64,6 +64,6 @@ pointer-events: none;
 }
 
 .toggler__input:disabled ~ .toggler__state  .toggler__slider {
-display: none;
+background-color: var(--grey-3);
 }
     
