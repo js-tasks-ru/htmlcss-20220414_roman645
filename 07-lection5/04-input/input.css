@@ -17,14 +17,6 @@ border: 1px solid var(--red);
 box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
 border-radius: 8px;
 }
-
-.input__field_invalid::-webkit-input-placeholder {
-color: var(--grey-4);
-}
-    
-.input__field_success::-webkit-input-placeholder {
-color: var(--grey-4);
-}
  
 .input__field:focus {
 outline: none;
@@ -32,7 +24,7 @@ border: 1px solid var(--blue-1);
 box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
 }
 
-::-webkit-input-placeholder {
+.input__field::-webkit-input-placeholder {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -41,18 +33,20 @@ line-height: 26px;
 color: var(--grey-2);
 }
 
-.input__icon_success {
-position: absolute;
-left: 370px;
-top: 75px;
+.input__field_success::-webkit-input-placeholder {
+color: var(--grey-4);
 }
 
-.input__icon_error {
-position: absolute;
-left: 370px;
-top: 133px;
+.input__field_invalid::-webkit-input-placeholder {
+color: var(--grey-4);
+}
+
+.input__icon {
+position: relative;
+right: 48px;
+top: 18px;
 }
 
 .input {
-display: block;
+display: flex;
 }
