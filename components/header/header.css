@@ -12,3 +12,28 @@
     color: #212429;
     margin: 0;
 }
+
+.logo {
+    position: absolute;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ACB5BD;
+}
+
+.icon__sun {
+    margin-right: 12px;
+}
+
+.icon__moon {
+    margin-left: 15px;
+}
+
+.menu {
+    display: inline-flex;
+    align-items: center;
+
+}
