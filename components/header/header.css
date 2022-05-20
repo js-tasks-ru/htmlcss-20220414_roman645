@@ -1,6 +1,6 @@
 .header {
     background-color: #FFF;
-    padding: 96px 0 77px;
+    padding: 24px 0 77px;
 }
 
 .header__title {
@@ -14,14 +14,14 @@
 }
 
 .logo {
-    position: absolute;
-    top: 24px;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     color: #ACB5BD;
+    margin-bottom: 40px;
 }
 
 .icon__sun {
@@ -32,8 +32,10 @@
     margin-left: 15px;
 }
 
-.menu {
-    display: inline-flex;
-    align-items: center;
+.menu__links {
+    padding-right: 24px;
+}
 
+.toggler {
+    padding-left: 33px;
 }
