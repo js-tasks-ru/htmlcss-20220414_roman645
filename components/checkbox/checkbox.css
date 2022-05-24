@@ -1,7 +1,6 @@
     .checkbox {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     pointer-events: none;
     margin-bottom: 16px;
     margin-left: 46px;
@@ -61,10 +60,4 @@
     .checkbox__input:disabled ~ .checkbox__state  .checkbox__control{
     background: var(--grey-2);
     pointer-events: none;
-    }
-
-    .checkbox_image {
-        display: flex;
-        margin-top: 81px;
-        margin-bottom: 88px;
     }

@@ -1,0 +1,42 @@
+    .modal__button {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
+    .modal__card {
+    max-width: 428px;
+    top: 50%;
+    left: 50%;
+    background: var(--white);
+    border-radius: 8px;
+    padding: 10px;
+    width: 224px;
+    height: 162px;
+    }
+    
+    .modal__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--grey-4);
+    }
+    
+    .modal {
+    background: var(--grey-c4);
+    top: 0; 
+    left: 0;
+    padding: 18px;
+    width: 245px;
+    margin-top: 32px;
+    margin-left: 34px;
+    margin-bottom: 35px;
+    }
+
+    .modal__title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    }

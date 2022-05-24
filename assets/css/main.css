@@ -14,6 +14,8 @@
 @import '../../components/avatar/avatar.css';
 @import '../../components/checkbox/checkbox.css';
 @import '../../components/radio/radio.css';
+@import '../../components/button/button.css';
+@import '../../components/modal/modal.css';
 
 :root {
     --white: #ffffff;
@@ -33,6 +35,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-c4: #c4c4c47e;
 
     --error: var(--red);
     --success: var(--blue);
