@@ -1,7 +1,7 @@
 .card {
 width: 350px;
 height: 367px;
-background: #FFFFFF;
+background: var(--white);
 box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 border-radius: 12px;
 margin-bottom: 30px;
@@ -20,7 +20,7 @@ font-weight: 500;
 font-size: 21px;
 line-height: 25px;
 text-align: center;
-color: #212429;
+color: var(--black);
 margin-block-start: 0em;
 margin-block-end: 6px;
 }
@@ -32,7 +32,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
-color: #212429;
+color: var(--black);
 }
 
 li{

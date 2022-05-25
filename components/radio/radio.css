@@ -1,10 +1,10 @@
     .radio {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        pointer-events: none;
-        margin-bottom: 16px;
-        margin-left: 46px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    margin-bottom: 16px;
+    margin-left: 46px;
     }
     
     .radio__input{

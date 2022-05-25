@@ -16,6 +16,7 @@
 @import '../../components/radio/radio.css';
 @import '../../components/button/button.css';
 @import '../../components/modal/modal.css';
+@import '../../components/switcher/switcher.css';
 
 :root {
     --white: #ffffff;
@@ -31,6 +32,7 @@
     --blue-4: #90A0B7;
     --blue-5: #4263EB;
     --red: #F03D3E;
+    --grey: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;

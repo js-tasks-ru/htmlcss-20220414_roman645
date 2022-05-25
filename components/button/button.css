@@ -41,13 +41,13 @@
 }
 
 .button_alternate {
-    background: #F9FAFC;
+    background: var(--grey);
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
 }
 
 .button_alternate:hover {
-    background: #F9FAFC;
+    background: var(--grey);
     color: var(--grey-4);
     border: 1px solid var(--black);
     cursor: pointer;
