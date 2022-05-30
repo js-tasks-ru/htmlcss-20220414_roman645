@@ -24,18 +24,25 @@
     margin-bottom: 40px;
 }
 
-.icon__sun {
-    margin-right: 12px;
+.toggler__icon_sun {
+    margin-right: 13px;
 }
 
-.icon__moon {
+.toggler__icon_moon {
     margin-left: 15px;
 }
 
-.menu__links {
+.logo__menu-link {
     padding-right: 24px;
 }
 
-.toggler {
+.logo__menu-toggler {
     padding-left: 33px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu_bottom {
+display: block;
+margin-top: 40px;
 }

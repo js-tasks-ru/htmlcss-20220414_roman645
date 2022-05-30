@@ -1,9 +1,6 @@
     .checkbox {
-    position: relative;
     display: inline-block;
     pointer-events: none;
-    margin-bottom: 16px;
-    margin-left: 46px;
     }
     
     .checkbox__input{
@@ -12,12 +9,12 @@
     }
     
     .checkbox__state{
-    display: inline-flex;
-    gap: 12px;
+    display: flex;
     align-items: center;
+    gap: 12px;
     cursor: pointer;
     }
-    
+
     .checkbox__control{
     box-sizing: border-box;
     width: 28px;

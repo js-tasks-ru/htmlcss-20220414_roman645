@@ -5,3 +5,10 @@
     padding-top: 68px;
     padding-bottom: 92px;
 }
+
+.preview__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    

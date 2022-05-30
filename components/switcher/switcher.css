@@ -1,9 +1,4 @@
-.menu_bottom {
-display: block;
-margin-top: 40px;
-}
-
-.switcher {
+.menu__switcher {
 position: relative;
 }
 

@@ -2,12 +2,7 @@
     background: var(--white);
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding: 10px 16px;
-    margin-top: 61px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 67px;
-    height: 137px;
+    padding: 8.5px 16px;
     }
     
     .histogram__header {
@@ -45,7 +40,7 @@
     }
     
     .histogram__bars {
-    height: 40px;
+    height: 50px;
     display: flex;
     align-items: flex-end;
     }

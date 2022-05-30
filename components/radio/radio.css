@@ -1,10 +1,6 @@
     .radio {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     pointer-events: none;
-    margin-bottom: 16px;
-    margin-left: 46px;
     }
     
     .radio__input{
@@ -13,9 +9,9 @@
     }
     
     .radio__state{
-    display: inline-flex;
-    gap: 12px;
+    display: flex;
     align-items: center;
+    gap: 12px;
     cursor: pointer;
     }
     
