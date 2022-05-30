@@ -27,7 +27,6 @@
     --purple-2: #5028C6;
     --purple-3: #a0b1f53f;
     --blue: #374FC7;
-    --blue-1: #4263EB;
     --blue-2: #2342C0;
     --blue-3: #334D6E;
     --blue-4: #90A0B7;
@@ -49,6 +48,5 @@
 
 * {
     font-family: 'Inter';
-    font-family: 'Roboto', sans-serif;
 }
 
