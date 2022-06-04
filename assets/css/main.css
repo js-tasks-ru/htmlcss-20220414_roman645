@@ -8,6 +8,10 @@
 @import '../../components/second-page/page/page.css';
 @import '../../components/second-page/container/contaner.css';
 @import '../../components/second-page/tooltip/tooltip.css';
+@import '../../components/second-page/switcher/switcher.css';
+@import '../../components/second-page/toggler/toggler.css';
+@import '../../components/second-page/logo/logo.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;

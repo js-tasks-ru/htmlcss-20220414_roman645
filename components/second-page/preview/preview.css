@@ -3,7 +3,6 @@
   }
 
   .preview__inner {
-    padding: 36px 36px 0px 36px;
     display: flex;
     justify-content: space-between;
   }
@@ -38,14 +37,24 @@
     line-height: 38px;
     color: var(--grey-4);
     text-transform: capitalize;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
   }
 
-  .preview__wrapper-top { 
-    padding: 32px 48px;
-    height: 345px;
+  .preview__wrapper_top { 
+    padding: 32px 48px 0px 48px;
+    height: 313px;
     border-bottom: 1px solid var(--grey-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .preview__tooltip {
+   margin-left: 50px;
+  }
 
+  .preview__menu {
+    
   }

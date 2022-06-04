@@ -1,16 +1,7 @@
 .header {
     background-color: var(--grey);
-    padding: 96px 0 77px;
-  }
-
-  .header_narrow {
     height: 82px;
-    padding: 0;
-  }
-  
-  .header__inner {
-    max-width: 1110px;
-    margin: 0 auto;
+    padding: 24px 0px 10px 0px;
   }
   
   .header__title {

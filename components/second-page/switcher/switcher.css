@@ -1,0 +1,40 @@
+    .switcher__input{
+    position: absolute;
+    clip: rect(0,0,0,0);
+    }
+    
+    .switcher__state{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    width: auto;
+    gap: 8px;
+    margin-right: 40px;
+    }
+    
+    .switcher__control {
+    height: 5px;
+    background: var(--white);
+    }
+    
+    .switcher__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+    }
+    
+    .switcher__input:checked ~ .switcher__state  .switcher__control {
+    background: var(--black);
+    }
+    
+    .switcher__input:checked ~ .switcher__state .switcher__title {
+    display: block;
+    color: var(--black);
+    }
+    
+    .switcher__input:disabled ~ .switcher__state  .switcher__control{
+    background: var(--grey-2);
+    pointer-events: none;
+    }
