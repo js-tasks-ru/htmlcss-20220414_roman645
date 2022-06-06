@@ -34,8 +34,8 @@
     border-top: 10px solid var(--blue-5);
     position: absolute;
     top: 100%;
-    left: 32%;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translate(-50%);
     }
     
     .tooltip__trigger:hover ~ .tooltip__bubble {

@@ -52,3 +52,11 @@
 .toggler__input:disabled ~ .toggler__state  .toggler__slider {
     background-color: var(--grey-3);
 }
+
+.toggler__icon_sun {
+    margin-right: 13px;
+}
+
+.toggler__icon_moon {
+    margin-left: 15px;
+}
