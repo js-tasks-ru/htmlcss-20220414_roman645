@@ -1,5 +1,6 @@
     .radio {
-    position: relative;
+    display: inline-block;
+    pointer-events: none;
     }
     
     .radio__input{
@@ -8,9 +9,9 @@
     }
     
     .radio__state{
-    display: inline-flex;
-    gap: 12px;
+    display: flex;
     align-items: center;
+    gap: 12px;
     cursor: pointer;
     }
     
@@ -21,11 +22,6 @@
     background: var(--white);
     border: 1px solid var(--grey-2);
     border-radius: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     }
     
     .radio__icon{
@@ -57,3 +53,4 @@
     background: var(--grey-2);
     pointer-events: none;
     }
+    

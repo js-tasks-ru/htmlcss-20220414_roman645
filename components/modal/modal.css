@@ -1,0 +1,32 @@
+    .modal__button {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
+    .modal__card_image {
+    max-width: 428px;
+    background: var(--white);
+    border-radius: 8px;
+    padding: 10px;
+    }
+    
+    .modal__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--grey-4);
+    }
+    
+    .modal_image {
+    background: var(--grey-c4);
+    padding: 24px 20px;
+    }
+
+    .modal__title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    }

@@ -1,0 +1,18 @@
+.preview {
+    background-color: var(--grey);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+    padding-top: 68px;
+    padding-bottom: 92px;
+}
+
+.preview__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.preview__button {
+    margin-top: 64px;
+}

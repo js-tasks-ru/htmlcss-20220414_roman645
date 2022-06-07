@@ -1,0 +1,50 @@
+.button {
+    border-radius: 8px;
+    padding: 15px 65px 14px 65px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.button_primary {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.button_primary:hover {
+    background: var(--blue-2);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.button_secondary {
+    background: var(--purple);
+    color: var(--white);
+}
+
+.button_secondary:hover {
+    background: var(--purple-2);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.button_alternate {
+    background: var(--grey);
+    color: var(--grey-4);
+    border: 1px solid var(--grey-3);
+}
+
+.button_alternate:hover {
+    background: var(--grey);
+    color: var(--grey-4);
+    border: 1px solid var(--black);
+    cursor: pointer;
+}

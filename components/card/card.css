@@ -1,0 +1,68 @@
+.card {
+width: 350px;
+height: 367px;
+background: var(--white);
+box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+border-radius: 12px;
+}
+
+.card__element-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: var(--black);
+margin-block-start: 0em;
+margin-block-end: 6px;
+}
+
+.card__element-desc {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: var(--black);
+}
+
+.card__checkbox-radio_point {
+    list-style: none;
+    margin: 0px 0px 16px 0px;
+}
+
+.card__checkbox-radio_list {
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    display: inline-block;
+    margin: 0px 0px -24px 0px;
+}
+
+.card__avatar_image {
+    padding: 58px 95px 67px 95px;
+}
+
+.card__tooltip_image {
+    padding: 159px 0px 98px 164px; 
+}
+
+.card__checkbox-radio_image {
+    padding: 81px 58px 88px 46px;
+    display: flex; 
+    gap: 37px;
+}
+
+.card__calendar_image {
+    padding: 32px 74px 38px 74px;
+}
+
+.card__modal_image {
+    padding: 32px 34px 25px 32px;
+}
+
+.card__histogram_image {
+    padding: 61px 25px 67px 25px
+}

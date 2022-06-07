@@ -1,6 +1,23 @@
 @import '../fonts/fonts.css';
+@import '../css/normalize.css';
+@import '../../components/footer/footer.css';
+@import '../../components/header/header.css';
+@import '../../components/preview/preview.css';
+@import '../../components/page/page.css';
+@import '../../components/container/container.css';
 @import '../../components/normalize.css';
-@import '../../03-lection1/01-button/button.css';
+@import '../../components/toggler/toggler.css';
+@import '../../components/card/card.css';
+@import '../../components/tooltip/tooltip.css';
+@import '../../components/calendar/calendar.css';
+@import '../../components/histogram/histogram.css';
+@import '../../components/avatar/avatar.css';
+@import '../../components/checkbox/checkbox.css';
+@import '../../components/radio/radio.css';
+@import '../../components/button/button.css';
+@import '../../components/modal/modal.css';
+@import '../../components/switcher/switcher.css';
+@import '../../components/logo/logo.css';
 
 :root {
     --white: #ffffff;
@@ -11,17 +28,17 @@
     --purple-2: #5028C6;
     --purple-3: #a0b1f53f;
     --blue: #374FC7;
-    --blue-1: #4263EB;
     --blue-2: #2342C0;
     --blue-3: #334D6E;
     --blue-4: #90A0B7;
     --blue-5: #4263EB;
     --red: #F03D3E;
+    --grey: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
-    --grey-c4: rgba(196, 196, 196, 0.502);
+    --grey-c4: rgba(196, 196, 196, 0.5);
 
     --error: var(--red);
     --success: var(--blue);
@@ -31,6 +48,6 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter';
 }
 
