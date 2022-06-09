@@ -18,3 +18,7 @@
     position: relative;
     display: inline-block;
 }
+
+.logo__logo {
+    fill: var(--black);
+}
