@@ -41,3 +41,7 @@
     .tooltip__trigger:hover ~ .tooltip__bubble {
     display: block;
     } 
+
+.tooltip__svg {
+    fill: var(--black);
+}

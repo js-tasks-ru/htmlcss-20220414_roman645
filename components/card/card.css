@@ -1,31 +1,35 @@
 .card {
-width: 350px;
-height: 367px;
-background: var(--white);
-box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-border-radius: 12px;
+    width: 350px;
+    height: 367px;
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
 }
 
 .card__element-title {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 21px;
-line-height: 25px;
-text-align: center;
-color: var(--black);
-margin-block-start: 0em;
-margin-block-end: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--black);
+    margin-block-start: 0em;
+    margin-block-end: 6px;
 }
 
 .card__element-desc {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: var(--black);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--black);
+}
+
+.card__link {
+    text-decoration-line: none;
 }
 
 .card__checkbox-radio_point {
