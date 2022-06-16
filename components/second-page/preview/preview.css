@@ -1,4 +1,4 @@
-.preview {
+  .preview {
     background-color: var(--grey);
   }
 
@@ -55,6 +55,8 @@
    margin-left: 50px;
   }
 
-  .preview__menu {
-    
+  .preview__code {
+    padding: 50px 100px 65px 40px;
+    line-height: 23px;
+    font-size: 18px;
   }

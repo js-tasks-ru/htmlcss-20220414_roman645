@@ -346,3 +346,7 @@
   [hidden] {
     display: none;
   }
+
+  pre {
+    margin: 0em 0px;
+  }
