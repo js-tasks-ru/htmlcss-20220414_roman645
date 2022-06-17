@@ -26,3 +26,7 @@
     position: relative;
     display: inline-block;
 }
+
+.logo__logo {
+    stroke: var(--black);
+} 
