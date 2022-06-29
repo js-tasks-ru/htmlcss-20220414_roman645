@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Страница бургер-меню -->
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
@@ -7,6 +6,58 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
+
+        <button class="button button_icon" id="burger-menu-open">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>     
+        </button>
+        
+        <div class="burger-menu" id="burger-menu">
+            <div class="burger-menu__window">
+                <div class="burger-menu__logo">
+                    <button class="burger-menu__close" id="burger-menu-close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 6L18 18" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="1" width="30" height="30" fill="#212429"/>
+                        <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                        <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                        </svg>
+
+                </div>
+
+                <div class="burger-menu__dark-mode">
+                    <label class="burger-menu__toggler">
+                        <div class="toggler__title">Dark mode</div>
+                        <input class="toggler__input" type="checkbox">
+                        <div class="toggler__state"> 
+                            <div class="toggler__control">
+                                <span class="toggler__slider"></span>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="burger-menu__list">
+                    <h4 class="burger-menu__title">Components</h4>
+                    <a class="burger-menu__link burger-menu__link_selected" href="#">Tooltip</a>
+                    <a class="burger-menu__link" href="#">Custom form elements</a>
+                    <a class="burger-menu__link" href="#">Calendar</a>
+                    <a class="burger-menu__link" href="#">Modal</a>
+                    <a class="burger-menu__link" href="#">Histogram</a>
+                    <a class="burger-menu__link" href="#">Avatar</a>
+                </div>
+
+            </div>
+            
+        </div>
 
     </body>
 </html>
